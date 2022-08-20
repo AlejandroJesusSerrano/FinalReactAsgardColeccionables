@@ -1,0 +1,7 @@
+.cardContainer{
+    margin-left: 3em;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100vw;
+    background-color: #313131;
+}

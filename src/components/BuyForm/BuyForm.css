@@ -1,0 +1,94 @@
+label{
+    font-size: 1em;
+    font-weight: 600;
+    color: #f2c230;
+    border-radius: .25em;
+}
+
+
+input{
+    border:none;
+    width:100%;
+    background-color: #f2c230;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #212121;
+}
+
+.orderForm{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+
+}
+
+.containerForm{
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.formTitle{
+    color: #f2c230;
+    font-weight: 700;
+    font-size: 2em;
+    margin: 1em 0 1em 0;
+    text-align: center;
+    width: 100%;
+}
+
+.buyerInput{
+    padding: 1em;
+    margin-bottom: .1em;
+    background-color: #313131;
+    border-radius: .25em;
+    font-size: 1em;
+    width: 100%;
+}
+
+.orderBtns {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.buyBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+.addProduct{
+    border: .1em solid #313131;
+    background-color: #f2c230;
+    align-items: center;
+    padding: .5em;
+    border-radius: .5em;
+    color:#212121;
+    font-size: 1em;
+
+}
+
+.goToList{
+    border: .1em solid #f2c230;
+    background-color: #212121;
+    align-items: center;
+    padding: .5em;
+    border-radius: .5em;
+    color: #f2c230;
+    font-size: 1em;
+}
+
+
+

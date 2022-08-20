@@ -1,0 +1,55 @@
+import React from 'react'
+
+import Image1 from '../../../public/img/batman.jpg'
+import Image2 from '../../../public/img/spiderman.jpg'
+import Image3 from '../../../public/img/narutochacra.jpg'
+
+export const About = () => {
+  return (
+    <div>
+        <div class="container-fluid pb-3 my-3 row impressionLight wow animate__animated animate__fadeInUp">
+          <h2 class="pt-1 mt-1 cardTitle">Estamos Pensando en tu Esparcimiento</h2>
+          <div class="container-fluid mx-auto px-auto col-xl-6 col-xxl-8">
+            <div id="nosotrosCarousel" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src={Image1} class="d-block w-100" alt="Hot Toys Batman"/>
+                </div>
+                <div class="carousel-item">
+                  <img src={Image2} class="d-block w-100" alt="Hot Toys Spiderman No Way Home"/>
+                </div>
+                <div class="carousel-item">
+                  <img src={Image3} class="d-block w-100" alt="Hot Toys Naruto Modo Sabio Chacra"/>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#nosotrosCarouselgit " data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#nosotrosCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="container-fluid col-xl-6 col-xxl-4">
+            <p class="paragraph">
+                Somos una empresa Joven, pero pujante, nacimos en el año 2.011, siendo solo un pequeño hotel de 8 habitaciónes y ahí comnenzamos nuestro crecimiento
+            </p>
+            <p class="paragraph">
+                Siempre pensando en el huesped y lo que le gustaría, fuimos realizando incorporaciónes de servicios y espacios para su confort, como gimnasio, pileta, y proximamente un sauna seco e hidromasaje. Nuestro hotel quiere que lo visites y tratará de no dejarte ir, por lo a gusto que te hará sentir.
+            </p>
+            <p class="paragraph">
+                Siempre estamos pensando en crecer y si existiese alguna critica, te suplicamos que nos lo hagas saber para seguir en este camino de crecimiento.
+            </p>
+            <p class="paragraph">
+                Actualmente el Hotel Los Toneles - Cafayate, cuenta con una clientela que nos reelige continuamente y una relación calidad precio excepcional. Enre nuestros servicios, se incluyen Pileta, estacionameinto, juegos para niños, desayuno, wifi en todo el hotel, gimnasio, terraza con hamacas paraguayas, mirador y mucho mas.
+            </p>
+            <p class="paragraph">¡No dudes en visitarnos!, aremos lo posible para que tengas una hermosa estadía</p>
+          </div>
+        </div>
+    </div>    
+  )
+}
+
+export default About

@@ -1,0 +1,35 @@
+.widgetContainer{
+    border-radius: .5em;
+    font-size: 1.5em;
+}
+
+.cartIcon{
+    font-size: 1.5em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.grid{
+    display: grid;
+    width:5em;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+.counter
+{
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #212121;
+    align-items: center;
+    margin-top: .5em;
+}
+
+.linkClean{
+    text-decoration: none;
+    color: #f2c230;
+}
+
+
+

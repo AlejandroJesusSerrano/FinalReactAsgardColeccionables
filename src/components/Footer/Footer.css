@@ -1,0 +1,14 @@
+.footerCont{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f2c230;
+    padding: 1em;
+    margin-top: .5em;
+    width: 100%
+}
+
+.icon{
+    max-width: 3em;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #313131;
+}
+
+.carouselSetting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:43.5em;
+}
+
+.imgSize{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.logInBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: .5em;
+    margin-bottom: 1em;
+    background-color: #f2c230;
+    border-radius: .5em;
+    border: none;
+    font-size: 1em;
+}
+
+.formStyler{
+    background-color: #212121;
+    border-radius: 1em;
+}
+
+.aligner{
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formTitle{
+    text-align: center;
+    color: #f2c230;
+}

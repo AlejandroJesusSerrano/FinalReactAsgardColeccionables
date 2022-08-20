@@ -1,0 +1,59 @@
+.cardFormat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121;
+    width: 20vw;
+    border-style: double;
+    border-color: #f2c230;
+    border-radius: .5em;
+    padding: 1em;
+    margin: 2em 1em;
+
+}
+
+.cardTitle {
+    color: #f2c230;
+}
+
+.cardImg {
+    display: flex;
+    border-radius: .5em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formatImg{
+    width: 100%;
+    border-radius: .5em;
+}
+
+.moreData{
+    color: #f2c230;
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    margin-top: .5em;
+    background-color:#f2c230;
+    color: #000000;
+    border-radius: .2em;
+}
+
+.moreBtn{
+    background-color: #f2c230;
+    border-radius: 1em;
+    padding: .5em 0;
+    margin-top: 1em;
+    
+}
+
+.detailBtn{
+    border: none;
+    text-decoration: none;
+    color: black;
+    background: none;
+    font-size: 1.25em;
+    text-align: center;
+}

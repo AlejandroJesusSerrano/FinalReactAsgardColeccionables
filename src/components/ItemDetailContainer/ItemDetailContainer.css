@@ -1,0 +1,31 @@
+.detailContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2c230;
+    flex-flow: row;
+}
+
+.loading{
+    margin-top: 17em;
+    margin-bottom: 2em;
+}
+
+.addLink {
+    border: none;
+    background-color: #f2c230;
+    padding: 0 1.5em;
+    font-size: 1.25em;
+    margin-bottom: .75em;
+    border-radius: .35em;
+    text-decoration: none;
+    color: #212121;
+
+}
+
+.addLink:hover, .addLink:focus {
+    color: #212121;
+    text-decoration: none;
+}
+

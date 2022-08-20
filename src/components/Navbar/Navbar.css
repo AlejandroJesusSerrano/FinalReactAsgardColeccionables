@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600;8..144,700;8..144,800&display=swap');
+
+.background{
+    background-color: #f2c230;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+
+}
+
+.activeLink{
+    text-decoration: none;
+    color: #f2c230;
+    background-color: #000000;
+    border-radius: .5em;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+    .activeLink {
+        transition: none;
+    }
+
+}
+
+.activeLink:hover, .activeLink:focus {
+    color: #f2c230;
+}
+
+.med{
+    color: #000000;
+    text-decoration: none;
+}
+
+.med:hover, .med:focus {
+    color: #000000;
+    text-decoration: none;
+}
+
+

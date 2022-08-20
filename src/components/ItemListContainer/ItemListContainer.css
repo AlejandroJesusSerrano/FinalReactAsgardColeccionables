@@ -1,0 +1,12 @@
+.itemListContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2c230;
+    flex-flow: row;
+}
+
+.loading{
+    margin-top: 17em;
+    margin-bottom: 2em;
+}
